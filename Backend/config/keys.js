@@ -1,23 +1,23 @@
 const {
-  PORT,
-  CONNECTION_URL,
-  JWT_SECRET,
-  SENDER_EMAIL,
-  EMAIL_PASSWORD,
-  AWS_ACCESS_KEY,
-  AWS_SECRECT_ACCESS_KEY,
-  AWS_BUCKET_NAME,
-  AWS_REGION
+  PORT_NO,
+  CONNECTION_URL_PATH,
+  JWT_SECRET_CODE,
+  SENDER_EMAIL_PATH,
+  EMAIL_PASSWORD_PASS,
+  AWS_ACCESS_KEY_VALUE,
+  AWS_SECRECT_ACCESS_KEY_VALUE,
+  AWS_BUCKET_NAME_IS,
+  AWS_REGION_AREA
 } = process.env;
 
 module.exports = {
-  port: PORT,
-  connectionURL: CONNECTION_URL,
-  jwtSecret: JWT_SECRET,
-  senderEmail: SENDER_EMAIL,
-  emailPassword: EMAIL_PASSWORD,
-  awsAccessKey: AWS_ACCESS_KEY,
-  awsSecrectAccessKey: AWS_SECRECT_ACCESS_KEY,
-  awsBusketName: AWS_BUCKET_NAME,
-  awsRegion: AWS_REGION,
+  port: PORT_NO,
+  connectionURL: CONNECTION_URL_PATH,
+  jwtSecret: JWT_SECRET_CODE,
+  senderEmail: SENDER_EMAIL_PATH,
+  emailPassword: EMAIL_PASSWORD_PASS,
+  awsAccessKey: AWS_ACCESS_KEY_VALUE,
+  awsSecrectAccessKey: AWS_SECRECT_ACCESS_KEY_VALUE,
+  awsBusketName: AWS_BUCKET_NAME_IS,
+  awsRegion: AWS_REGION_AREA,
 };
